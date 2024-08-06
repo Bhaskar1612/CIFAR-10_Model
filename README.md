@@ -57,7 +57,7 @@ testloader = torch.utils.data.DataLoader(testset, batch_size=4,
                                          shuffle=False, num_workers=2)
 
 ## Results
-After training the model, you should see an accuracy of around XX% on the test dataset. Here are some sample results:
+After training the model, you should see an accuracy of around 81% on the test dataset. Here are some sample results:
 
 ### Metric	Value
 - Train Loss	0.45
