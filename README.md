@@ -3,13 +3,13 @@
 This project is an implementation of a Convolutional Neural Network (CNN) for image classification on the CIFAR-10 dataset. The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 different classes, with 6,000 images per class.
 
 ## Table of Contents
-Introduction
-Dataset
-Model Architecture
-Installation
-Usage
-Results
-Contributing
+- Introduction
+- Dataset
+- Model Architecture
+- Installation
+- Usage
+- Results
+- Contributing
 
 ## Introduction
 This repository contains a CNN model built using PyTorch to classify images from the CIFAR-10 dataset. The goal is to achieve high accuracy in classifying images into one of the ten classes: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, and truck.
