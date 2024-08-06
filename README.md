@@ -18,26 +18,22 @@ This repository contains a CNN model built using PyTorch to classify images from
 The CIFAR-10 dataset is publicly available and can be downloaded from the CIFAR-10 website. The dataset is divided into 50,000 training images and 10,000 test images.
 
 ## Model Architecture
-The model consists of several convolutional layers, max-pooling layers, and fully connected layers. The architecture can be summarized as follows:
+The model consists of several convolutional layers, max-pooling layers, and fully connected layers. The architecture cinvolves:
 
-Convolutional Layer
-ReLU Activation
-Max Pooling
-Convolutional Layer
-ReLU Activation
-Max Pooling
-Fully Connected Layer
-ReLU Activation
-Fully Connected Layer
-Softmax Output
+- Convolutional Layer
+- ReLU Activation
+- Max Pooling
+- Batch Normalisation
+- Fully Connected Layer
+- Softmax Output
 
 ## Installation
 To run this project, you'll need to have Python and the following libraries installed:
 
-PyTorch
-torchvision
-numpy
-matplotlib
+- PyTorch
+- torchvision
+- numpy
+- matplotlib
 
 pip install torch torchvision numpy matplotlib
 
@@ -64,10 +60,10 @@ testloader = torch.utils.data.DataLoader(testset, batch_size=4,
 After training the model, you should see an accuracy of around XX% on the test dataset. Here are some sample results:
 
 ### Metric	Value
-Train Loss	0.45
-Train Accuracy	84.02%
-Test Loss	0.56
-Test Accuracy	81.98%
+- Train Loss	0.45
+- Train Accuracy	84.02%
+- Test Loss	0.56
+- Test Accuracy	81.98%
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
